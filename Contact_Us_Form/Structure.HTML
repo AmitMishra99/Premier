@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styling.CSS">
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <h1>Welcome to Website</h1><br>
+    <h2>Contact Us Form</h2><br>
+
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+
+        <label for="contact">Contact Number</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter Contact Number" required><br><br>
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select><br><br>
+
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Rating</label><br>
+        <input type="radio" id="rate1" name="rating" value="1">
+        <label for="rate1">1</label>
+        <input type="radio" id="rate2" name="rating" value="2">
+        <label for="rate2">2</label>
+        <input type="radio" id="rate3" name="rating" value="3">
+        <label for="rate3">3</label>
+        <input type="radio" id="rate4" name="rating" value="4"      >
+        <label for="rate4">4</label>
+        <input type="radio" id="rate5" name="rating" value="5">
+        <label for="rate5">5</label><br><br>
+
+        <label for="message">Enter Your Message</label><br>
+        <textarea id="message" name="message" rows="6" cols="45" placeholder="Enter Your Message"></textarea><br><br>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    </form>
+</body>
+</html>

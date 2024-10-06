@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 40px 90px; 
+    padding-top: 80px;
+}
+#left{
+    height: 100%;
+    width: 58%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#left-bottom{
+    height:45%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#colors{
+    height: 30px;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    margin-left: 5px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 45px;
+}
+#colors h1{
+    font-weight: 100;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    margin-right: 5px;
+}
+#colour1{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(125, 103, 103);
+    border-radius: 50%;
+    font-weight: 100;
+    margin: 3px;
+}
+#colour2{
+    height: 15px;
+    width: 15px;
+    background-color:rgb(237, 10, 48);
+    border-radius: 50%;
+    margin-right: 12px;
+    
+}
+
+#left h4{
+    font-size: 100px;
+    font-weight: 350;
+    line-height: 100px;
+}
+#left h3{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+#left h1{
+    font-size: 20px;
+    font-weight: 350;
+}
+#left h5{
+    font-size: 15px;
+    font-weight: 100;
+    width: 70%;
+}
+#right{
+    margin-top: 40px;
+    height: 100%;
+    width: 35%;
+    /* background-color: blue; */
+    position: relative;
+}
+#right-top{
+    height: 40px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right h5{
+    font-size: 16px;
+}
+#right h3{
+    font-size: 22px;
+
+}
+#right h5 i{
+    color: gold;
+}
+#right img{
+    height: 91%;
+    width: 99%;
+    object-fit: cover;
+}
+#Black_Circle{
+    height: 130px;
+    width: 130px;
+    background-color:rgb(67, 61, 70);
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: -15% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Black_Circle h4{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+#rotated{
+    position: absolute;
+    /* background-color: red; */
+    rotate: -90deg;
+    bottom: 29%;
+    left: -35%;
+    font-size: 30px;
+    font-weight: 300;
+}

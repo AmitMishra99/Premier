@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 2.5vw 3vw;
+    position: relative;
+
+}
+/* #box{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position: relative;
+    /* animation-name: identifier;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in; 
+
+}
+#box1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: relative;
+    /* animation-name: identifier;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; 
+}
+@keyframes identifier {
+    from{
+        left: 0;
+        background-color: pink;
+    }
+    to{
+        left: 60%;
+        background-color: black;
+    }
+}
+h1::after{
+    content: "Dostiyo";
+    color: red;
+    font-size: 140px;
+}
+h1::before{
+    content: "among";
+    color: blue;
+    font-size: 60px;
+} */
+/* button{
+    padding: 13px 13px;
+    background-color: transparent;
+    color: cyan;
+    overflow: hidden;
+    z-index: 1;
+    border: 2px solid cyan;
+    position: relative;
+}
+button::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    background-color: cyan;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all linear 0.5s;
+    z-index: 0;
+}
+button:hover::after{
+    width: 100%;
+    transform: translate(-50%,-50%) scale(3);
+
+}
+button:hover{
+    color: red;;
+} */
+
+button {
+    padding: 13px 13px;
+    background-color: transparent;
+    color: cyan;
+    overflow: hidden;
+    border: 2px solid cyan;
+    position: relative;
+    z-index: -1;
+
+button::after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all linear 0.5s;
+    /* z-index: 0; Keep the background effect behind the text but within the button */
+}
+
+button:hover::after {
+    width: 100%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+button:hover {
+    color: black;
+}

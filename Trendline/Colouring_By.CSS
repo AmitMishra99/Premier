@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#nav{
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+#nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.circle-1{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(92, 48, 17);
+    border-radius: 50%;
+}
+.circle-2{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(37, 154, 37);
+    border-radius: 50%;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+#nav-right h4{
+    font-size: 13px;
+    font-weight: 200;
+}
+#nav-right h4 span{
+    color: rgb(222, 41, 41);
+    margin-left: 5px;
+}
+
+
+#nav-part-1{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 30px;
+    gap: 50px;
+    
+}
+#nav-part-1 h4{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#center{
+    height: 35%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    overflow-x: auto;
+}
+#center::-webkit-scrollbar{
+    height: 5px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    font-size: 50px;
+    background-color: white;
+}
+.elem h4{
+    font-size: 100px;
+    font-weight: 100;
+}
+   
